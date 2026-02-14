@@ -3,6 +3,16 @@ public class Main {
     public static void main(String[] args) {
 
 
+
+
+
+        saludar("pepe");
+
+
+
+
+
+
         GestorFinancieroJava gestor = new GestorFinancieroJava();
 
         gestor.calcularIva(250);
@@ -18,14 +28,52 @@ public class Main {
 
 
         GestorFinancieroJava.calcularGastoViaje(300,6,1.45);
+        System.out.println();
 
 
+
+
+        RepartidorFacturas calculoCuenta = new RepartidorFacturas();
+        calculoCuenta.repartirCuenta(140,3,10);
+        System.out.println();
+        int puntacionInicial = 0;
+        System.out.println("Puntacion inicial "+puntacionInicial);
+        puntacionInicial +=5;
+        System.out.println("Despues de primera modificacion "+puntacionInicial);
+        puntacionInicial +=5;
+        System.out.println("Despues de segunda modificacion "+puntacionInicial);
+
+
+
+    presentacionPersonal("Elena Garcia ",22,"barcelona");
+
+
+
+
+    }
+
+
+
+
+
+
+    public static void saludar(String nombre){
+    System.out.println("hola me llamo"+nombre);
+    boolean disponible = true;
+    }
+
+
+    public static void presentacionPersonal(String nombre, int edad, String ciudad) {
+        System.out.println("Hola, me llamo "+nombre+"tengo "+edad+ " años y vivo en "+ciudad);
 
 
 
 
 
     }
+
+
+
 
 
 }

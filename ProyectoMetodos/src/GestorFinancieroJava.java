@@ -25,8 +25,8 @@ public static void calcularGastoViaje(double km, double consumoMedio, double pre
 
 public static void convertirCelsiusFahrenheit(double celsius){
     double resultado = (celsius*9/5)+32;
-    System.out.printf(+ celsius +" grados celsius equivalen a %.1f ",resultado, " farenheit");
 
+    System.out.printf("%.1f grados Celsius equivalen a %.1f Fahrenheit%n", celsius, resultado);
 
 
 }
