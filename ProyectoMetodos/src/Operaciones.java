@@ -14,9 +14,11 @@ public class Operaciones {
         System.out.println("el resultado de la resto es " + resultado);
     }
 
-    public void multiplicar (int op1, int op2){
+    public int  multiplicar (int op1, int op2){
         int resultado = op1 * op2;
         System.out.println("el resultado de la multiplicacion es "+resultado);
+        return resultado;
+
     }
 
     public void dividir(int op1, int op2){
@@ -26,10 +28,11 @@ public class Operaciones {
     }
 
 
+    public boolean validarNumero(int numeroValidar){
+        return numeroValidar>0;
 
 
 
 
-
-
+        }
 }
