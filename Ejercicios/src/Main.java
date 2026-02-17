@@ -57,6 +57,9 @@ public class Main {
         System.out.println("Autor " +autor);
 
 
+        System.out.println(5%2);
+
+
 
 
 

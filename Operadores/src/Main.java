@@ -20,28 +20,10 @@ public class Main {
         int edad = lectorTeclado.nextInt();
         System.out.println("Tienes carnet de conducir");
         boolean conducir = lectorTeclado.nextBoolean();
-        operadores.evaluarCandidato(salarioEntrada,edad,conducir, nombre);
-
-
-
-
-
-
-
-
-
-
-
+        operadores.evaluarCandidato(salarioEntrada, edad, conducir, nombre);
 
 
     }
-
-
-
-
-
-
-
 
 
 }
